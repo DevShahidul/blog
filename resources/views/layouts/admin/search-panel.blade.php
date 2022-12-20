@@ -9,7 +9,7 @@
  x-show="isSearchPanelOpen"
  @click="isSearchPanelOpen = false"
  class="fixed inset-0 z-10 bg-primary-darker"
- style="opacity: 0.5"
+ style=" display: none; opacity: 0.5"
  aria-hidden="ture"
 ></div>
 <!-- Panel -->
@@ -23,6 +23,7 @@
  x-show="isSearchPanelOpen"
  @keydown.escape="isSearchPanelOpen = false"
  class="fixed inset-y-0 z-20 w-full max-w-xs bg-white shadow-xl dark:bg-darker dark:text-light sm:max-w-md focus:outline-none"
+ style="display: none"
 >
  <div class="absolute right-0 p-2 transform translate-x-full">
    <!-- Close button -->

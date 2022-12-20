@@ -10,7 +10,7 @@
     x-show="isNotificationsPanelOpen"
     @click="isNotificationsPanelOpen = false"
     class="fixed inset-0 z-10 bg-primary-darker"
-    style="opacity: 0.5"
+    style="opacity: 0.5; display: none"
     aria-hidden="true"
 ></div>
 <!-- Panel -->

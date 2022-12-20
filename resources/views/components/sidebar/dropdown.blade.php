@@ -23,7 +23,7 @@
         </span>
     </button>
 
-    <div x-show="open" class="mt-2 space-y-2 px-7" role="menu" arial-label="Components">
+    <div x-show="open" style="display: none" class="mt-2 space-y-2 px-7" role="menu" arial-label="Components">
         {{ $content }}
     </div>
   </div>
