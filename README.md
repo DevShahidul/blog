@@ -65,3 +65,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # blog
+Install Laravel on your system
+- write the command line: composer install
+- if it is not installed or faild run this command: composer update
+- then run this command: npm install
+- then run this command: npm run dev
